@@ -94,7 +94,7 @@ const classNames = (...classes) => {
 
 export const NavBar = () => {
     return (
-        <Disclosure as="nav" className="bg-black fixed w-screen z-10">
+        <Disclosure as="nav" className="bg-[#202020] fixed w-screen z-10">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -122,7 +122,7 @@ export const NavBar = () => {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex flex-shrink-0 items-center">
                                     <h1 className="text-2xl font-sans font-extrabold text-gray-100">
-                                        PODIL
+                                        P O D I L
                                     </h1>
                                 </div>
                                 <div className="hidden sm:ml-6 sm:block">
@@ -135,7 +135,7 @@ export const NavBar = () => {
                                                     item.current
                                                         ? "text-white"
                                                         : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                                                    "rounded-md px-3 py-2 text-sm font-medium"
+                                                    "rounded-md px-3 py-2 text-md font-medium"
                                                 )}
                                                 aria-current={
                                                     item.current
@@ -153,7 +153,7 @@ export const NavBar = () => {
                                 {/* Profile dropdown */}
                                 <Menu as="div" className="relative ml-3">
                                     <button>
-                                        <p className="text-white hover:bg-amber-600 bg-amber-500 py-2 px-3 text-sm font-medium rounded-md transition duration-200 ease-in-out">
+                                        <p className="text-white text-md font-medium">
                                             Login
                                         </p>
                                     </button>

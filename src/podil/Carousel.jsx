@@ -78,7 +78,7 @@ export const Carousel = () => {
         infinite: true,
         lazyLoad: true,
         speed: 300,
-        slidesToShow: 3,
+        slidesToShow: 4,
         centerMode: true,
         centerPadding: 0,
         prevArrow: <PrevArrow />,
@@ -87,7 +87,7 @@ export const Carousel = () => {
     };
 
     return (
-        <div className="w-8/12 mx-auto py-8">
+        <div className="w-10/12 mx-auto py-8">
             <Slider {...settings}>
                 {cards.map((card, idx) => (
                     <div key={idx}>

@@ -20,7 +20,7 @@ export const MealTime = ({ mealTime, imgMealTime, calories, description, cooking
                     </p>
                 </div>
             </div>
-            <button className="bg-black hover:bg-gray-900 mt-3 text-center p-2 rounded-full shadow-lg w-full">
+            <button className="bg-[#202020] hover:bg-neutral-800 mt-3 text-center p-2 rounded-full shadow-lg w-full">
                 <p className="font-medium text-xs text-white py-1">
                     View the recipe
                 </p>
